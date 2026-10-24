@@ -1,0 +1,14 @@
+→ Basic page HTML:-
+
+index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title> My assignment</title>
+</head>
+<body>
+  <h1>This is my assignment</h1>
+  <p>My name is keshav</p>
+</body>
+</html>
