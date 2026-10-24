@@ -1,0 +1,6 @@
+first write URL in browser and enter.
+Browser use DNS(Domain name system) to find IP address of website's server.
+Browser send request to server.
+Server send required files, such as HTML, CSS and images.
+Browser read these files and make page , applying style.
+Complete webpage appear on screen.
