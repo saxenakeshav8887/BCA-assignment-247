@@ -11,3 +11,11 @@
   <p>My assignment of commits</p>
 <body>
 </html>
+
+style.css
+
+body{background-color:red;
+font-family:Arial;text-align:center;}
+
+h1{color: yellow;}
+p{color:sky-blue;font-size:20px;}
