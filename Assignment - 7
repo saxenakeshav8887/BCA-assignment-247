@@ -1,0 +1,26 @@
+Resume-text-only.html :→
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My resume</title>
+</head>
+<body>
+  <h1>keshav</h1>
+  <p>email:
+saxenakeshav8887@gmail.com</p>
+  <p>phone:7830055614</p>
+  
+  <h2>Career Objective</h2>
+  <p>To learn new skills and build a successful career</p>
+
+  <h2>Education</h2>
+  <p>BAC-Pursuing</p>
+
+  <h2>Skills</h2>
+  <p>_ _ _ _ _ </p>
+
+  <h2>Hobbies</h2>
+  <p>_ _ _ _ _</p>
+</body>
+</html>
