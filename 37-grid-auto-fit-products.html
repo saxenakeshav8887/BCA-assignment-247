@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Auto Fit Products</title>
+
+    <style>
+        body {
+          font-family: Arial;
+          background-color: lightgray;
+          text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px gray;
+        }
+
+        h2 {
+            color: darkblue;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Our Products</h1>
+
+    <div class="container">
+
+        <div class="product">
+            <h2>Mobile</h2>
+            <p>Price: ₹12000</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <h2>Laptop</h2>
+            <p>Price: ₹45000</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <h2>Headphones</h2>
+            <p>Price: ₹1500</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <h2>Smart Watch</h2>
+            <p>Price: ₹2500</p>
+            <button>Buy Now</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
