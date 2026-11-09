@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Design Tokens</title>
+
+    <style>
+        :root {
+            --main-color: darkblue;
+            --text-color: black;
+            --bg-color: lightgray;
+            --font-size: 18px;
+            --spacing: 20px;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: Arial;
+            margin: var(--spacing);
+        }
+
+        h1 {
+            color: var(--main-color);
+        }
+
+        .box {
+            background-color: white;
+            padding: var(--spacing);
+            font-size: var(--font-size);
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Design Tokens Page</h1>
+
+    <div class="box">
+        <p>CSS design tokens make website styling easy.</p>
+        <p>We can reuse colors, font sizes and spacing.</p>
+    </div>
+
+</body>
+</html>
+
