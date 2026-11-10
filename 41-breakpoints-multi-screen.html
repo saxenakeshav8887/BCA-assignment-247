@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breakpoints Multi Screen</title>
+
+    <style>
+        body {
+          font-family: Arial;
+          background-color: lightgray;
+          text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .box {
+          background-color: lightblue;
+          padding: 30px;
+          border: 2px solid blue;
+        }
+
+        /* Tablet Screen */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Mobile Screen */
+        @media (max-width: 480px) {
+            .container {
+               grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Responsive Webpage</h1>
+
+    <div class="container">
+
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
+        <div class="box">Box 6</div>
+
+    </div>
+
+</body>
+</html>
+
